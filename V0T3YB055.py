@@ -84,8 +84,12 @@ logo ="""
 ╚██╗ ██╔╝████╔╝██║   ██║    ╚═══██╗  ╚██╔╝  
  ╚████╔╝ ╚██████╔╝   ██║   ██████╔╝   ██║   
   ╚═══╝   ╚═════╝    ╚═╝   ╚═════╝    ╚═╝   
-                                            
-"""
+==============================================
+AUTHOR       : པིཔེག དོན
+GITHUB       : V0T3Y
+FACEBOOK     : MAVEN མེརོ
+VERSION      : 1.0
+=============================================="""
 def clear():
     os.system("clear")
     print(logo)    
@@ -105,41 +109,35 @@ def votey():
     os.system('clear')
     print(logo)
     print(f'[1] File Crack')
-    print(f'[2] Public ID Crack')
-    print(f'[3] Random Crack ')
-    print(f'[4] Create File')
-    print(f'[5] Login Tool')
-    print(f'[6] Logout Cookie')
-    print(f'[7] Remove Trash Files ')
-    print(f'[8] Separate Ids')
-    print(f'[9] Remove Duplicate IDs')
+    print(f'[2] Random Crack ')
+    print(f'[3] Create File')
+    print(f'[4] Login Tool')
+    print(f'[5] Logout Cookie')
+    print(f'[6] Remove Trash Files ')
+    print(f'[7] Separate Ids')
+    print(f'[8] Remove Duplicate IDs')
     print(f'[W] Join Whatsapp Group ')
-    print(f'[F] Join Facebook Group ')
     print('')
     select = input('Select Menu>: ')
     if select =='1':
         method_crack()
     elif select =='2':
-        exit(' This is Option Soon available ... ')
-    elif select =='3':
         random_number()
-    elif select =='4':
+    elif select =='3':
        menu()
-    elif select =='5':
+    elif select =='4':
        login()
-    elif select =='6':
+    elif select =='5':
        remove_Tc()
-    elif select =='7':
+    elif select =='6':
        removef()
-    elif select =='8':
+    elif select =='7':
        sids()
-    elif select =='9':
+    elif select =='8':
        cutter()
     elif select =='W':
         os.system('xdg-open https://chat.whatsapp.com/B5SYLwPzNYF73qUL3v0pHF')
         pass
-    elif select =='F':
-        os.system('xdg-open LOADING')
     else:
         print('\n Select valid option ... ')
         time.sleep(2)
@@ -435,10 +433,10 @@ class main_crack():
             sl = int(input('How many password do you want to add?: '))
             os.system("clear")
             print(logo)
-            print(f'{S} [Example: first123,last1122,firstlast,last,ETC]')
+            print(f'{S} [Example: first123,last1122,firstlast,last,etc.]')
             print('')
             if sl =='':
-                print('\n Put limit between 1 to 30')
+                print('\n PUT LIMIT BETWEEN 1 TO 30')
             elif sl > 20:
                 print('\nPassword limit Should Not Be Greater Than 30')
             else:
@@ -447,10 +445,10 @@ class main_crack():
             os.system("clear")
             print(logo)
             
-            print(f"\r{A}Use flight (airplane) mode before use {S}")
+            print(f"\r{A}Use flight (airplane) mode for speed up {S}")
             print(47*"-")
             print(f'{S} Total IDs : %s ' % len(self.id))
-            print(f'{S} Cracking Started...')
+            print(f'{S} Cloning Started...')
             print(47*"-")
             with voteyV0T3Y(max_workers=30) as V0T3Yworld:
                 for zsb in self.id:
